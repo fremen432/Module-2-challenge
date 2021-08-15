@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Start header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav ul li {
+    margin-left: 25px;
+}
+a {
+    color: ivory;
+    text-decoration: none;
+}
+/* End header */
+
+/* start hero */
+.hero {
+    background-image: url("../Images/lake.jpg");
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* End Hero */
+
+/* Start Sections */
+
+.cbm content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cbm h2 {
+    font-size: 50px;
+}
+
+    /* Start About Me */
+
+    /* End About Me */
+
+    /* Start Work */
+    
+    /* End Work */
+
+    /* Start Contact Me */
+    
+    /* End Contact Me */
+
+/* End Sections */
