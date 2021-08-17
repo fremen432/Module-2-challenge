@@ -4,6 +4,60 @@
     margin: 0;
 }
 
+/* organization/testing start*/
+.box-1 {
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: yellow;
+    color: black;
+}
+.box-2 {
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: greenyellow;
+    color: black;
+}
+.box-3 {
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: blueviolet;
+    color: white;
+}
+.box-4 {
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: red;
+    color: white;
+}
+/* organization/testing end*/
+
+
+/* SECTION TITLE STYLES START */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    }
+.section-title {
+    font-size: 50px;
+}
+.content-right {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.content-right-p {
+    margin: 10px;
+    width: 300px;
+
+    }
+
+/* SECTION TITLE STYLES End */
+
+
 /* Start header */
 header {
     padding: 20px;
@@ -29,7 +83,7 @@ header nav ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 header nav ul li {
     margin-left: 25px;
@@ -51,31 +105,37 @@ a {
 }
 /* End Hero */
 
+
+
 /* Start Sections */
 
-.cbm content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 
-}
 
-article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.cbm h2 {
-    font-size: 50px;
-}
-
-    /* Start About Me */
-
+/* Start About Me */    
+    #cbm-profile {
+        /* height: auto; */
+        margin: 10px;
+        max-width: 300px;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
     /* End About Me */
 
     /* Start Work */
-    
+    .project-group {
+        /* max-width: 200px;
+        max-height: 200px; */
+    }
+    .project-group-image {
+        margin: 5px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .first-project-group-image {
+        margin: 5px;
+        width: 800px;
+    }
     /* End Work */
 
     /* Start Contact Me */
