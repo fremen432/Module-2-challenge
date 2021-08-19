@@ -5,57 +5,80 @@
 }
 
 /* organization/testing start*/
-.box-1 {
+/* .box-1-yellow {
     margin: 10px;
     border: 3px solid #333;
     background-color: yellow;
     color: black;
 }
-.box-2 {
+.box-2-green {
     margin: 10px;
     border: 3px solid #333;
-    background-color: greenyellow;
+    background-color: rgb(153, 255, 0);
     color: black;
 }
-.box-3 {
+.box-3-purple {
     margin: 10px;
     border: 3px solid #333;
     background-color: blueviolet;
     color: white;
 }
-.box-4 {
+.box-4-red {
     margin: 10px;
     border: 3px solid #333;
     background-color: red;
     color: white;
-}
+} */
 /* organization/testing end*/
 
+/* RANDOM STYLES START */
 
-/* SECTION TITLE STYLES START */
-.section-container {
+.container-section {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
+
+    flex-direction: row;
     }
+
 .section-title {
-    font-size: 50px;
-}
-.content-right {
-    min-width: 100px;
-    min-height: 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-end;
+
+    border-right: 3px solid black;
+
+    width: 30%;
+    font-size: 50px;
+
+    padding-right: 20px;
+    margin-right: 20px;
 }
+
+.container-content {
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: column;
+    width: 70%;
+
+    /* border-left: 3px solid black; */
+    }
+
 .content-right-p {
     margin: 10px;
-    width: 300px;
+    /* width: 300px; */
+}
 
-    }
+.horizontal-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-/* SECTION TITLE STYLES End */
+.opacity-hover:hover {
+    opacity: 50%;
+}
+
+/* RANDOM STYLES End */
 
 
 /* Start header */
@@ -116,26 +139,90 @@ a {
         /* height: auto; */
         margin: 10px;
         max-width: 300px;
-        max-height: 100%;
+        max-height: 300px;
         background-size: cover;
         background-position: center;
     }
     /* End About Me */
 
     /* Start Work */
-    .project-group {
-        /* max-width: 200px;
-        max-height: 200px; */
-    }
+
     .project-group-image {
         margin: 5px;
         max-width: 200px;
         max-height: 200px;
     }
-    .first-project-group-image {
+
+    #surfer {
         margin: 5px;
-        width: 800px;
+        width: 100%;
+        height: 100%;
     }
+
+    .image-pair {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    #surfboard {
+
+    }
+
+    #led-wall {
+
+    }
+
+    
+
+    #surfer-div1 {
+        display: flex;
+
+        background-image: url(../Images/Facebook\ profile\ pic.jpg);
+        
+        background-position: center;
+        background-size: cover;
+        margin: 10px;
+
+        border: 5px solid #2a607c;
+
+
+        /* flex-direction: column; */
+        
+        height: 300px;
+        width: 100%;
+    }
+
+    .surfer-text-styles {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: flex-end;
+        color: white;
+        /* height: 60px; */
+
+        margin: 0 0 10px 0 ;
+
+    }
+
+    #surfer-div1 h3 {
+        /* margin: 10px; */
+        font-size: 30px;
+        background-color: #2a607c;
+        padding: 5px;
+
+    }
+
+    #surfer-div1 h4 {
+        /* margin: 10px; */
+        font-size: 15px;
+        background-color: #2a607c;
+        padding: 0 5px 5px 5px;
+    }
+
+
+
     /* End Work */
 
     /* Start Contact Me */
