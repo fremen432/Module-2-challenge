@@ -27,8 +27,8 @@
     margin: 10px;
     border: 3px solid #333;
     background-color: red;
-    color: white; */
-}
+    color: white;
+} */
 /* organization/testing end*/
 
 /* RANDOM STYLES START */
@@ -117,7 +117,7 @@ a {
 }
 /* End header */
 
-/* Hero start */
+/* Hero section Start */
 .hero {
     background-image: url("../Images/lake.jpg");
     height: 200px;
@@ -126,40 +126,21 @@ a {
     background-size: cover;
     background-position: center;
 }
-/* Hero end */
+/* Hero section End */
 
 
-/* Start About Me */    
-    #cbm-profile {
-        /* height: auto; */
-        margin: 10px;
-        max-width: 300px;
-        max-height: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-/* End About Me */
+/* About Me section Start */    
+#cbm-profile {
+    /* height: auto; */
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+/* About Me section End */
 
 /* Work section Start */
-
-/* Work image ids Start*/
-    #surf-report {
-    background-image: url(../Images/Work-Project-Images/surf\ report.jpg);
-    }
-    #led-wall {
-    background-image: url(../Images/Work-Project-Images/led\ wall.jpeg);
-    }
-    #calculator {
-    background-image: url(../Images/Work-Project-Images/calculator.png);
-    }
-    #pastel-puzzle {
-    background-image: url(../Images/Work-Project-Images/pastel\ puzzle.jpg);
-    }
-    #run-buddy {
-    background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
-    }
-/* Work image ids End*/
-
 .work-project {
     display: flex;
     flex-direction: column;
@@ -175,7 +156,10 @@ a {
 
     color: white;
 }
-
+.image-pair {
+    display: flex;
+    justify-content: space-around;
+}
 .work-project h3 {
     font-size: 30px;
     background-color: #2a607c;
@@ -191,13 +175,27 @@ a {
     max-width: 100px;
 }
 
-.image-pair {
-    display: flex;
-    justify-content: space-around;
-}
-
+    /* Work image ids Start*/
+    #surf-report {
+    background-image: url(../Images/Work-Project-Images/surf\ report.jpg);
+    }
+    #led-wall {
+    background-image: url(../Images/Work-Project-Images/led\ wall.jpeg);
+    }
+    #calculator {
+    background-image: url(../Images/Work-Project-Images/calculator.png);
+    }
+    #pastel-puzzle {
+    background-image: url(../Images/Work-Project-Images/pastel\ puzzle.jpg);
+    }
+    #run-buddy {
+    background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
+    }
+    /* Work image ids End*/
 
 /* Work section End */
+
+
 
 /* Start Contact Me */
 
