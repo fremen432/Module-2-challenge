@@ -5,7 +5,7 @@
 }
 
 /* organization/testing start*/
- /* .box-1-yellow {
+/* .box-1-yellow {
     margin: 10px;
     border: 3px solid #333;
     background-color: yellow;
@@ -33,11 +33,13 @@
 
 /* RANDOM STYLES START */
 
+
+
 .container-section {
     display: flex;
     justify-content: space-around;
 
-    flex-direction: row;
+    /* flex-direction: row; */
     }
 
 .section-title {
@@ -51,6 +53,8 @@
 
     padding-right: 20px;
     margin-right: 20px;
+
+    padding-left: 20px;
 }
 
 .container-content {
@@ -65,7 +69,6 @@
 
 .content-right-p {
     margin: 10px;
-    /* width: 300px; */
 }
 
 .horizontal-center {
@@ -78,7 +81,10 @@
     opacity: 50%;
 }
 
+
+
 /* RANDOM STYLES End */
+
 
 
 /* Start header */
@@ -93,7 +99,9 @@ header {
 }
 header h1 {
     display: inline-block;
+    text-align: center;
     font-size: 48px;
+
 }
 header nav {
     padding-top: 15px;
@@ -126,6 +134,7 @@ a {
     background-size: cover;
     background-position: center;
 }
+
 /* Hero section End */
 
 
@@ -141,38 +150,31 @@ a {
 /* About Me section End */
 
 /* Work section Start */
-.work-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 
-    height: 300px;
-    width: 100%;
-    margin: 10px;
-    border: 5px solid #2a607c;
-
-    background-position: center;
-    background-size: cover;
-
-    color: white;
-}
 .image-pair {
     display: flex;
     justify-content: space-around;
 }
+
+.text-box {
+    display: inline-block;
+    width: fit-content;
+    background-color: #2a607c;
+    margin: 0 0 10px 0;
+}
+
 .work-project h3 {
     font-size: 30px;
-    background-color: #2a607c;
+
     padding: 5px;
-    max-width: 100px;
 
 }
 .work-project h4 {
-    margin: 0 0 10px 0;
     font-size: 15px;
-    background-color: #2a607c;
+
     padding: 0 5px 5px 5px;
-    max-width: 100px;
+    /* margin: 0 0 10px 0; */
+
 }
 
     /* Work image ids Start*/
@@ -191,14 +193,96 @@ a {
     #run-buddy {
     background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
     }
+    #Horeison {
+    background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
+    }
     /* Work image ids End*/
+
+    .work-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+        height: 300px;
+        width: 100%;
+    
+        margin: 10px;
+        border: 5px solid #2a607c;
+        /* padding: 50px; */
+    
+        background-position: center;
+        background-size: cover;
+    
+        color: white;
+    }
 
 /* Work section End */
 
-
-
 /* Start Contact Me */
+#contact-nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#contact-ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.contact-li {
+    margin-left: 25px;
+}
+.contact-a {
+    color: black;
+    border-bottom: 3px solid black ;
+    /* text-decoration: none; */
+    /* border: 3px, solid, black */
+
+}
 
 /* End Contact Me */
 
 /* End Sections */
+
+/* Start Media queries */
+
+/* need to break:
+- nav links in header,
+- Work project cards,
+- h2 section-titles,
+- 
+  */
+
+@media screen and (max-width: 500px) {
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-title {
+        border-right: 0px solid black;
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    .image-pair {
+        flex-direction: column;
+    }
+
+    .container-content {
+        border-top: 3px solid black;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+}
+
+
