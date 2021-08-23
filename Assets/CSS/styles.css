@@ -5,39 +5,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     --main: #2a607c;
+    --white-text: white;
 
 }
-
-/* organization/testing start*/
-/* .box-1-yellow {
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: yellow;
-    color: black;
-}
-.box-2-green {
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: rgb(153, 255, 0);
-    color: black;
-}
-.box-3-purple {
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: blueviolet;
-    color: white;
-}
-.box-4-red {
-    margin: 10px;
-    border: 3px solid #333;
-    background-color: red;
-    color: white;
-} */
-/* organization/testing end*/
 
 /* RANDOM STYLES START */
-
-
 
 .container-section {
     display: flex;
@@ -59,9 +31,6 @@
     padding-left: 20px;
 
     margin-right: 20px;
-
-    /* min-width: 75px; */
-
 }
 
 .container-content {
@@ -70,8 +39,6 @@
 
     flex-direction: column;
     width: 70%;
-
-    /* border-left: 3px solid black; */
     }
 
 .content-right-p {
@@ -97,9 +64,8 @@
 /* Start header */
 header {
     padding: 20px;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     background-color: var(--main);
-    color: #ffffff;
+    color: var(--white-text);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -114,7 +80,6 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 }
 header nav ul {
@@ -127,7 +92,7 @@ header nav ul li {
     margin-left: 25px;
 }
 a {
-    color: ivory;
+    color: var(--white-text);
     text-decoration: none;
 }
 /* End header */
@@ -140,6 +105,16 @@ a {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#hero-text {
+    font-size: 40px;
+    padding: 5px;
 }
 
 /* Hero section End */
@@ -166,7 +141,9 @@ a {
 .text-box {
     display: inline-block;
     width: fit-content;
+
     background-color: var(--main);
+    color: var(--white-text);
     margin: 0 0 10px 0;
 }
 
@@ -174,74 +151,65 @@ a {
     font-size: 30px;
 
     padding: 5px;
-
 }
 .work-project h4 {
     font-size: 15px;
 
     padding: 0 5px 5px 5px;
-    /* margin: 0 0 10px 0; */
-
 }
 
-    /* Work image ids Start*/
-    #surf-report {
-    background-image: url(../Images/Work-Project-Images/surf\ report.jpg);
-    }
-    #led-wall {
-    background-image: url(../Images/Work-Project-Images/led\ wall.jpeg);
-    }
-    #calculator {
-    background-image: url(../Images/Work-Project-Images/calculator.png);
-    }
-    #pastel-puzzle {
-    background-image: url(../Images/Work-Project-Images/pastel\ puzzle.jpg);
-    }
-    #run-buddy {
-    background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
-    }
-    #Horeison {
-    background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
-    }
-    /* Work image ids End*/
+/* Work image ids Start*/
+#surf-report {
+background-image: url(../Images/Work-Project-Images/surf\ report.jpg);
+}
+#led-wall {
+background-image: url(../Images/Work-Project-Images/led\ wall.jpeg);
+}
+#calculator {
+background-image: url(../Images/Work-Project-Images/calculator.png);
+}
+#pastel-puzzle {
+background-image: url(../Images/Work-Project-Images/pastel\ puzzle.jpg);
+}
+#run-buddy {
+background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
+}
+#Horeison {
+background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
+}
+/* Work image ids End*/
 
-    .work-project {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    
-        height: 300px;
-        width: 100%;
-    
-        margin: 10px;
-        border: 5px solid #2a607c;
-        /* padding: 50px; */
-    
-        background-position: center;
-        background-size: cover;
-    
-        color: white;
-    }
+.work-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
-/* Work section End */
+    height: 300px;
+    width: 100%;
+
+    margin: 10px;
+    border: 5px solid #2a607c;
+
+    background-position: center;
+    background-size: cover;
+}
+/* End Work section */
 
 /* Start Contact Me */
 #contact-nav {
-    /* padding-top: 15px; */
-    /* margin-right: 20px; */
-    /* float: right; */
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 
     display: flex;
-    /* justify-content: space-between;
-    align-items: ; */
+    justify-content: center;
 }
 #contact-ul {
     list-style-type: none;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    width: 100%;
 }
 .contact-li {
     margin-left: 25px;
@@ -257,13 +225,6 @@ a {
 
 /* Start Media queries */
 
-/* need to break:
-- nav links in header,
-- Work project cards,
-- h2 section-titles,
-- 
-  */
-
 @media screen and (max-width: 575px) {
 
     header {
@@ -273,11 +234,12 @@ a {
     
     .container-section {
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
     }
     .section-title {
         display: flex;
-        /* justify-content: flex-end; */
+        justify-content: left;
+        width: 70%;
 
         border-right: 0px solid black;
         padding-right: 0px;
@@ -302,5 +264,5 @@ a {
         padding-bottom: 20px;
     }
 }
-
+/* Media queries End*/
 
