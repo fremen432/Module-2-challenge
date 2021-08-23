@@ -1,7 +1,7 @@
-# Personal Portfolio Webpage
+# Personal Portfolio Web Page
 
 ## Challenge Description:
-* Created a personal portfolio web-page using HTML and CSS.
+* Created a personal portfolio web page using HTML and CSS.
 * Separated content into sections for “About Me”, projects I’ve worked on, and contact information.
 * Implemented tools and principles from Module 2 such as flex-elements, pseudo-classes and CSS variables to create a rich and responsive page-viewing experience for desktop and mobile.
 
