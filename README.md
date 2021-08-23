@@ -1,2 +1,2 @@
-# Module-2-Challenge
-#Personal-Profile-Webpage
+# Module 2 Challenge
+# Personal Profile Webpage
