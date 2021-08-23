@@ -1,4 +1,4 @@
-# Personal Profile Webpage
+# Personal Portfolio Webpage
 
 ## Challenge Description:
 * Created a personal portfolio web-page using HTML and CSS.
