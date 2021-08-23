@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Personal Portfolio Web Page
 
 ## Challenge Description:
@@ -17,4 +14,3 @@
 
 ## Live URL link
 https://fremen432.github.io/Personal-Profile/
->>>>>>> 4d2074702b05ffeea38f3ed63e520b946900a970
