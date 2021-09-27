@@ -55,8 +55,6 @@
     opacity: 50%;
 }
 
-
-
 /* RANDOM STYLES End */
 
 
@@ -74,7 +72,6 @@ header h1 {
     display: inline-block;
     text-align: center;
     font-size: 48px;
-
 }
 header nav {
     padding-top: 15px;
@@ -111,12 +108,10 @@ a {
     align-items: flex-end;
 
 }
-
 #hero-text {
     font-size: 40px;
     padding: 5px;
 }
-
 /* Hero section End */
 
 
@@ -177,6 +172,16 @@ background-image: url(../Images/Work-Project-Images/hero-bg.jpg);
 #Horeison {
 background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
 }
+#passwordGenerator {
+background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
+}
+#workDayScheduler {
+background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
+}
+#eazyEatz {
+background-image: url(../Images/Work-Project-Images/Eazy\ Eatz.png);
+}
+
 /* Work image ids End*/
 
 .work-project {
