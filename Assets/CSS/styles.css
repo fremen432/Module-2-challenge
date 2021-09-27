@@ -10,13 +10,16 @@
 }
 
 /* RANDOM STYLES START */
-
-.container-section {
+.section-container {
     display: flex;
     justify-content: space-around;
 
-    /* flex-direction: row; */
-    }
+    /* width: 100%; */
+
+    /* border: 2px solid black;
+    margin: 2px;
+    padding: 2px; */
+}
 
 .section-title {
     display: flex;
@@ -50,16 +53,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.opacity-hover:hover {
-    opacity: 50%;
-}
-
 /* RANDOM STYLES End */
 
-
-
-/* Start header */
+/* Header Start */
 header {
     padding: 20px;
     background-color: var(--main);
@@ -92,9 +88,9 @@ a {
     color: var(--white-text);
     text-decoration: none;
 }
-/* End header */
+/* Header End */
 
-/* Hero section Start */
+/* Hero Start */
 .hero {
     background-image: url("../Images/lake.jpg");
     height: 200px;
@@ -112,7 +108,7 @@ a {
     font-size: 40px;
     padding: 5px;
 }
-/* Hero section End */
+/* Hero End */
 
 
 /* About Me section Start */    
@@ -127,11 +123,31 @@ a {
 /* About Me section End */
 
 /* Work section Start */
-
 .image-pair {
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+
+    /* justify-content: space-between; */
+    
+    /* border: 2px solid black;
+    margin: 2px;
+    padding: 2px; */
 }
+#cards {
+    /* border: 2px solid black;
+    margin: 2px;
+    padding: 2px; */
+}
+#First-Card {
+    /* border: 2px solid black;
+    margin: 2px;
+    padding: 2px; */
+}
+
+
+
+
+
 
 .text-box {
     display: inline-block;
@@ -141,17 +157,32 @@ a {
     color: var(--white-text);
     margin: 0 0 10px 0;
 }
-
 .work-project h3 {
     font-size: 30px;
-
     padding: 5px;
 }
 .work-project h4 {
     font-size: 15px;
-
     padding: 0 5px 5px 5px;
 }
+.work-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 300px;
+    width: 100%;
+
+    margin: 10px;
+    border: 5px solid #2a607c;
+
+    background-position: center;
+    background-size: cover;
+}
+.work-project:hover {
+    opacity: 50%;
+}
+/* End Work section */
 
 /* Work image ids Start*/
 #surf-report {
@@ -178,27 +209,10 @@ background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jp
 #workDayScheduler {
 background-image: url(../Images/Work-Project-Images/digital-marketing-meeting.jpg);
 }
-#eazyEatz {
+#Eazy-Eatz {
 background-image: url(../Images/Work-Project-Images/Eazy\ Eatz.png);
 }
-
 /* Work image ids End*/
-
-.work-project {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-
-    height: 300px;
-    width: 100%;
-
-    margin: 10px;
-    border: 5px solid #2a607c;
-
-    background-position: center;
-    background-size: cover;
-}
-/* End Work section */
 
 /* Start Contact Me */
 #contact-nav {
@@ -223,21 +237,21 @@ background-image: url(../Images/Work-Project-Images/Eazy\ Eatz.png);
     color: black;
     border-bottom: 3px solid black ;
 }
-
 /* End Contact Me */
-
-/* End Sections */
 
 /* Start Media queries */
 
 @media screen and (max-width: 575px) {
+    /* * {
+        border: 2px solid black;
+    } */
 
     header {
         justify-content: center;
         align-items: center;
     }
     
-    .container-section {
+    .section-container {
         flex-direction: column;
         align-items: center;
     }
@@ -253,13 +267,11 @@ background-image: url(../Images/Work-Project-Images/Eazy\ Eatz.png);
 
     }
     .container-content {
-        display: flex;
         align-items: center;
 
         border-top: 3px solid black;
         padding-top: 20px;
         margin-top: 20px;
-
     }
     .image-pair {
         flex-direction: column;
