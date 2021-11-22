@@ -169,7 +169,7 @@ a {
     margin: 10px;
     border: 5px solid #2a607c;
 
-    background-position: center;
+    background-position: center top;
     background-size: cover;
 }
 .work-project:hover {
@@ -205,6 +205,15 @@ background-image: url(../Images/Work-Project-Images/workDayScheduler.png);
 #Eazy-Eatz {
 background-image: url(../Images/Work-Project-Images/Eazy\ Eatz.png);
 }
+#eCommerce-backEnd {
+    background-image: url(../Images/Work-Project-Images/e-commerce-back-end.jpeg);
+    background-position: center;
+}
+#Full-Stack-Website {
+    background-image: url(../Images/Work-Project-Images/Armadillo\ Materials.png);
+    background-position: center;
+}
+
 /* Work image ids End*/
 
 /* Start Contact Me */
